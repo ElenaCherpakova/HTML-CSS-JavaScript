@@ -1,5 +1,5 @@
 # Mapty App
-This is a simple app that allows you to create and save workouts. The workouts are saved in local storage and can be viewed on a map.
+This is a simple app that allows a user to create and save workouts. The workouts are saved in local storage and can be viewed on a map.
 
 ## Technologies
 - HTML
