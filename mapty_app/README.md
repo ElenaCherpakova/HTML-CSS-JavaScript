@@ -1,5 +1,6 @@
 # Mapty App
-This is a simple app that allows a user to create and save workouts. The workouts are saved in local storage and can be viewed on a map.
+Mapty is a vanilla JavaScript application that interacts with the Leaflet library and display Map.
+This app allows a user to create and save workouts. The workouts are saved in local storage and can be viewed on a map.
 
 ## Technologies
 - HTML
@@ -9,6 +10,12 @@ This is a simple app that allows a user to create and save workouts. The workout
 - Mapbox
 - Parcel
 
+
+##Prerequisites
+Start with the latest version of NPM to avoid any errors:
+
+* npm
+```npm install npm@latest -g```
 ## Installation
 
 - Clone the repo
