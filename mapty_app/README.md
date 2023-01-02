@@ -49,6 +49,16 @@ npm install npm@latest -g
 
 5. Re-build Running and Cycling objects coming from Local Storage.
 
+6. More realistic error and confirmation messages.
+
+7. Ability to position the map to show all workouts.
+
+8. Ability to draw lines and shapes instead of just points.
+
+9. Geocode location from coordinates (“Run in Shoghi, Shimla).
+
+10. Display weather data for workout time and place.
+
 ## License
 
 This project is licensed under the MIT License
