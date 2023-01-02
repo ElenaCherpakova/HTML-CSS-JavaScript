@@ -2,7 +2,7 @@
 Mapty is a workout tracking application built using vanilla JavaScript that interacts with the Leaflet library and renders a map.
 This app allows a user to create and save workouts. The workouts are saved in local storage and can be viewed on a map.
 ## Demo View
-![Mapty App](https://mapty-steel.vercel.app/)
+[Live site](https://mapty-steel.vercel.app/)
 
 ## Technologies
 - HTML
