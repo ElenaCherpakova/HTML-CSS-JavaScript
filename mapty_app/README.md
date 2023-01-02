@@ -16,7 +16,7 @@ Start with the latest version of NPM to avoid any errors:
 
 * npm
 
-  ```npm install npm@latest -g```
+``` npm install npm@latest -g ```
 
 ## Installation
 
