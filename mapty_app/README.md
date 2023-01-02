@@ -14,8 +14,6 @@ This app allows a user to create and save workouts. The workouts are saved in lo
 ## Prerequisites
 Start with the latest version of NPM to avoid any errors:
 
-* npm
-
 ``` npm install npm@latest -g ```
 
 ## Installation
