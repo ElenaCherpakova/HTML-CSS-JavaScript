@@ -1,6 +1,6 @@
 {
   "name": "mapty_app",
-  "description": "This is a simple app that allows you to create and save workouts. The workouts are saved in local storage and can be viewed on a map.",
+  "description": "This is a simple app that allows a user to create and save workouts. The workouts are saved in local storage and can be viewed on a map.",
   "version": "1.0.0",
   "main": "script.js",
   "scripts": {
