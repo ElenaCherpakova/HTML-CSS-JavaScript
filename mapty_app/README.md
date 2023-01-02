@@ -22,16 +22,14 @@ Start with the latest version of NPM to avoid any errors:
 - Run `npm install` to install dependencies
 - Run `npm run start` to start the app
 
-## User stories
+## Usage
 
-- User can see map on page load
-- User can see pins on map for all workouts
-- User can see form to create new workout
-- User can create new workout by filling out form
-- User can see all workouts in list
-- User can see all workouts on map as pins
-- User can see popup when clicking on pin on map
-- User can see workout data in popup
-- User can edit workout by clicking edit button in popup
-- User can delete workout by clicking delete button in popup
-- User can see all workout when leaving workout page and coming back later
+1. Add workouts near to your Geo location.
+
+2. Add workouts to bookmarks to view it later.
+
+3. Click on workouts to see it's location.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE.md file for details
