@@ -18,7 +18,10 @@ const timer = new Timer(durationInput, startBtn, pauseBtn, {
     );
   },
   onComplete() {
-    console.log('complete');
+    //reload the page without refreshing the browser
+    setTimeout(() => {
+      window.location.reload();
+    }, 3000);
   },
 });
 // timer.start();

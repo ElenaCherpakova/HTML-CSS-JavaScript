@@ -24,6 +24,8 @@ class Timer {
   tick = () => {
     if (this.timeRemaining <= 0) {
       this.pause();
+
+
       if (this.onComplete) {
         this.onComplete();
       }
