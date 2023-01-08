@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module" ,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -14,6 +15,7 @@
   },
   "dependencies": {
     "caporal": "^1.4.0",
+    "chalk": "^5.2.0",
     "chokidar": "^3.5.3",
     "lodash.debounce": "^4.0.8"
   }
