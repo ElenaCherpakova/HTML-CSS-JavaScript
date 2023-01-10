@@ -1,5 +1,5 @@
 import troll from '/images/trollFace.png';
-console.log(troll);
+
 
 export default function Header() {
   return (
