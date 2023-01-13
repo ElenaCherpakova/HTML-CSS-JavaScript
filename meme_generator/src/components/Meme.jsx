@@ -8,8 +8,7 @@ export default function Meme() {
   const getMemeImg = () => {
     const data = memesData.data.memes;
     const randomNum = Math.floor(Math.random() * data.length);
-    const memeImage = data[randomNum].url;
-    setImageMeme(memeImage);
+    setImageMeme(data[randomNum].url);
   };
 
   return (
