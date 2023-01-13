@@ -20,7 +20,7 @@ export default function Meme() {
           Generate Meme
         </button>
       </div>
-      <img src={memeImage} />
+      <img src={memeImage} className="meme--image" />
     </main>
   );
 }
