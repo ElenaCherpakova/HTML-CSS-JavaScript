@@ -1,15 +1,24 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 import memesData from '../memesData';
 import '../style.css';
 
 export default function Meme() {
-  const [memeImage, setImageMeme] = useState('');
+  const [meme, setMeme] = useState({
+    topText: '',
+    bottomText: '',
+    randomImage: 'http://i.imgflip.com/1bij.jpg',
+  });
+  const [allMemeImages, setAllMemeImages] = useState(memesData);
 
-  const getMemeImg = () => {
-    const data = memesData.data.memes;
-    const randomNum = Math.floor(Math.random() * data.length);
-    setImageMeme(data[randomNum].url);
-  };
+  function getMemeImg() {
+    const memesArray = allMemeImages.data.memes;
+    const randomNum = Math.floor(Math.random() * memesArray.length);
+    const url = memesArray[randomNum].url;
+    setMeme((prevMeme) => ({
+      ...prevMeme,
+      randomImage: url,
+    }));
+  }
 
   return (
     <main>
@@ -20,7 +29,7 @@ export default function Meme() {
           Generate Meme
         </button>
       </div>
-      <img src={memeImage} className="meme--image" />
+      <img src={meme.randomImage} className='meme--image' />
     </main>
   );
 }
