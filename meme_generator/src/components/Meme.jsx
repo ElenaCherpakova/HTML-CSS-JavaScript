@@ -9,7 +9,6 @@ export default function Meme() {
   });
   const [allMemes, setAllMemes] = useState([]);
 
-
   function getMemeImg() {
     const randomNum = Math.floor(Math.random() * allMemes.length);
     const url = allMemes[randomNum].url;
@@ -20,9 +19,12 @@ export default function Meme() {
   }
 
   useEffect(() => {
-    fetch('https://api.imgflip.com/get_memes')
-      .then((response) => response.json())
-      .then((data) => setAllMemes(data.data.memes));
+    async function fetchMemes() {
+      const res = await fetch('https://api.imgflip.com/get_memes');
+      const data = await res.json();
+      setAllMemes(data.data.memes);
+    }
+    fetchMemes();
   }, []);
 
   function handleChange(event) {
