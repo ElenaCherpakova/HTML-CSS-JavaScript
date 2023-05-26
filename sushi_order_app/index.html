@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+    <title>Order Sushi</title>
+    <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Merriweather:300,400,400i,700&amp;subset=cyrillic-ext"
+      rel="stylesheet" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="container text-center">
+        <img src="img/logo/logo.svg" width="92" alt="Sushi and Pizza" />
+        <div class="display-4">Order Sushi</div>
+        <p class="lead">Fast And Yummy</p>
+      </div>
+    </header>
+
+    <div class="container mb-5">
+      <div class="row">
+        <div class="col-md-8">
+          <div class="row">
+            <!-- Sushi -->
+            <div class="col-md-6">
+              <div class="card mb-4" data-id="01">
+                <img
+                  class="product-img"
+                  src="img/roll/philadelphia.jpg"
+                  alt="" />
+                <div class="card-body text-center">
+                  <h4 class="item-title">Philadelphia</h4>
+                  <p>
+                    <small data-items-in-box class="text-muted">6pcs</small>
+                  </p>
+
+                  <div class="details-wrapper">
+                    <div class="items counter-wrapper">
+                      <div class="items__control" data-action="minus">-</div>
+                      <div class="items__current" data-counter>1</div>
+                      <div class="items__control" data-action="plus">+</div>
+                    </div>
+
+                    <div class="price">
+                      <div class="price__weight">180g.</div>
+                      <div class="price__currency">$5.45</div>
+                    </div>
+                  </div>
+
+                  <button
+                    data-cart
+                    type="button"
+                    class="btn btn-block btn-outline-warning">
+                    + add
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Sushi -->
+            <div class="col-md-6">
+              <div class="card mb-4" data-id="02">
+                <img
+                  class="product-img"
+                  src="img/roll/california-tempura.jpg"
+                  alt="" />
+                <div class="card-body text-center">
+                  <h4 class="item-title">California</h4>
+                  <p>
+                    <small data-items-in-box class="text-muted">6 pcs</small>
+                  </p>
+
+                  <div class="details-wrapper">
+                    <div class="items counter-wrapper">
+                      <div class="items__control" data-action="minus">-</div>
+                      <div class="items__current" data-counter>1</div>
+                      <div class="items__control" data-action="plus">+</div>
+                    </div>
+
+                    <div class="price">
+                      <div class="price__weight">205g.</div>
+                      <div class="price__currency">$5.99</div>
+                    </div>
+                  </div>
+
+                  <button
+                    data-cart
+                    type="button"
+                    class="btn btn-block btn-outline-warning">
+                    + add
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Sushi -->
+            <div class="col-md-6">
+              <div class="card mb-4" data-id="03">
+                <img
+                  class="product-img"
+                  src="img/roll/zapech-california.jpg"
+                  alt="" />
+                <div class="card-body text-center">
+                  <h4 class="item-title">Salmon Avocado Roll</h4>
+                  <p>
+                    <small data-items-in-box class="text-muted">6 pcs.</small>
+                  </p>
+
+                  <div class="details-wrapper">
+                    <div class="items counter-wrapper">
+                      <div class="items__control" data-action="minus">-</div>
+                      <div class="items__current" data-counter>1</div>
+                      <div class="items__control" data-action="plus">+</div>
+                    </div>
+
+                    <div class="price">
+                      <div class="price__weight">182g.</div>
+                      <div class="price__currency">$5.99</div>
+                    </div>
+                  </div>
+
+                  <button
+                    data-cart
+                    type="button"
+                    class="btn btn-block btn-outline-warning">
+                    + add
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Sushi -->
+            <div class="col-md-6">
+              <div class="card mb-4" data-id="04">
+                <img
+                  class="product-img"
+                  src="img/roll/philadelphia.jpg"
+                  alt="" />
+                <div class="card-body text-center">
+                  <h4 class="item-title">Philadelphia</h4>
+                  <p>
+                    <small data-items-in-box class="text-muted">6pcs</small>
+                  </p>
+
+                  <div class="details-wrapper">
+                    <div class="items counter-wrapper">
+                      <div class="items__control" data-action="minus">-</div>
+                      <div class="items__current" data-counter>1</div>
+                      <div class="items__control" data-action="plus">+</div>
+                    </div>
+
+                    <div class="price">
+                      <div class="price__weight">230g.</div>
+                      <div class="price__currency">$5.99</div>
+                    </div>
+                  </div>
+
+                  <button
+                    data-cart
+                    type="button"
+                    class="btn btn-block btn-outline-warning">
+                    + add
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <!-- Bucket -->
+          <div class="card mb-4">
+            <div class="card-body">
+              <h4 class="card-title">Your Order</h4>
+              <div data-cart-empty class="alert alert-secondary" role="alert">
+                Bucket empty
+              </div>
+              <!-- cart-wrapper -->
+              <div class="cart-wrapper">
+                <!-- Cart item -->
+                <div class="cart-item" data-id="02">
+                  <div class="cart-item__top">
+                    <div class="cart-item__img">
+                      <img src="img/roll/california-tempura.jpg" alt="" />
+                    </div>
+                    <div class="cart-item__desc">
+                      <div class="cart-item__title">California</div>
+                      <div class="cart-item__weight">6 pcs. / 205g.</div>
+
+                      <!-- cart-item__details -->
+                      <div class="cart-item__details">
+                        <div class="items items--small counter-wrapper">
+                          <div class="items__control" data-action="minus">
+                            -
+                          </div>
+                          <div class="items__current" data-counter="">1</div>
+                          <div class="items__control" data-action="plus">+</div>
+                        </div>
+
+                        <div class="price">
+                          <div class="price__currency">$5.99</div>
+                        </div>
+                      </div>
+                      <!-- // cart-item__details -->
+                    </div>
+                  </div>
+                </div>
+                <!-- // Cart item -->
+              </div>
+              <!-- // cart-wrapper -->
+
+              <!-- Total Order -->
+              <div class="cart-total">
+                <p>
+                  <span class="h5">Delivery:</span>
+                  <span class="delivery-cost free">Free</span>
+                </p>
+                <p>
+                  <span class="h5">Total:</span>
+                  <span class="total-price">5.99</span>
+                  <span class="rouble">$</span>
+                </p>
+              </div>
+              <!-- // Стоимость заказа -->
+            </div>
+
+            <!-- Place an order -->
+            <div id="order-form" class="card-body border-top">
+              <h4 class="card-title">Place an order</h4>
+              <form>
+                <div class="form-group">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="phone number" />
+                </div>
+                <button type="submit" class="btn btn-primary">
+                  Place an order
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./js/counter-02.js"></script>
+  </body>
+</html>
