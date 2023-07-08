@@ -6,7 +6,7 @@ body {
 }
 
 input {
-  border: 2px solid #5f9341;
+  border: 2px solid #415c93;
   padding: 10px;
   box-sizing: border-box;
   width: 100%;
@@ -14,18 +14,18 @@ input {
 }
 
 button {
-  background: #5f9341;
+  background: #415c93;
   color: #fff;
   padding: 10px 20px;
   text-transform: uppercase;
-  border: 1px solid #5f9341;
+  border: 1px solid #415c93;
   cursor: pointer;
   font-weight: bold;
 }
 
 #delete-btn {
   background: white;
-  color: #5f9341;
+  color: #415c93;
 }
 
 ul {
@@ -39,5 +39,5 @@ li {
 }
 
 a {
-  color: #5f9341;
+  color: #415c93;
 }
